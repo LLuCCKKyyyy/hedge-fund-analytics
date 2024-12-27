@@ -1,79 +1,33 @@
-# Hedge Fund Analytics Platform
-
-A comprehensive platform for analyzing hedge fund holdings and investment strategies.
-
-## Project Structure
-
-```
-hedge-fund-analytics/
-â”œâ”€â”€ backend/                    # FastAPI backend
-â”‚   â”œâ”€â”€ app/
-â”‚   â”‚   â”œâ”€â”€ api/               # API endpoints
-â”‚   â”‚   â”œâ”€â”€ core/              # Core configurations
-â”‚   â”‚   â”œâ”€â”€ db/                # Database models
-â”‚   â”‚   â””â”€â”€ services/          # Business logic
-â”‚   â””â”€â”€ requirements.txt
-â””â”€â”€ frontend/                   # React frontend
-    â”œâ”€â”€ src/
-    â”‚   â”œâ”€â”€ components/        # Reusable components
-    â”‚   â”œâ”€â”€ pages/             # Page components
-    â”‚   â””â”€â”€ services/          # API services
-    â””â”€â”€ package.json
-```
-
-## Setup Instructions
-
-### Backend Setup
-
-1. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-2. Install dependencies:
-```bash
-cd backend
-pip install -r requirements.txt
-```
-
-3. Run the backend server:
-```bash
-uvicorn app.main:app --reload
-```
-
-### Frontend Setup
-
-1. Install dependencies:
-```bash
-cd frontend
-npm install
-```
-
-2. Run the development server:
-```bash
-npm start
-```
-
-## Features
-
-- Portfolio Analysis
-- Holdings Analysis
-- Strategy Analysis
-- Comparison Analysis
-
-## Development Status
-
-Currently in initial development phase. Basic framework is set up with the following components:
-
-- Backend API structure with FastAPI
-- Frontend React application with TypeScript
-- Basic routing and layout implementation
-
-## Next Steps
-
-1. Implement database models
-2. Create API endpoints for fund data
-3. Develop frontend components
-4. Add data visualization
-5. Implement analysis features
+# Hedge Fund Analytics Platform 
+ 
+## ÏîÄ¿ÃèÊö 
+¶Ô³å»ù½ðÍ¶×Ê·ÖÎöºÍ²ÆÎñÖ¸±ê×·×ÙWebÓ¦ÓÃ 
+ 
+## ¼¼ÊõÕ» 
+- Ç°¶Ë£ºReact, TypeScript, Ant Design 
+- ºó¶Ë£ºPython, FastAPI 
+- Êý¾Ý·ÖÎö£ºECharts 
+ 
+## ±¾µØ¿ª·¢ 
+ 
+### Ç°¶Ë 
+\`\`\`bash 
+cd frontend 
+npm install 
+npm start 
+\`\`\` 
+ 
+### ºó¶Ë 
+\`\`\`bash 
+cd backend 
+python -m venv venv 
+source venv/bin/activate  # Windows: venv\Scripts\activate 
+pip install -r requirements.txt 
+uvicorn app.main:app --reload 
+\`\`\` 
+ 
+## ¹±Ï×Ö¸ÄÏ 
+1. Fork²Ö¿â 
+2. ´´½¨¹¦ÄÜ·ÖÖ§ 
+3. Ìá½»´úÂë 
+4. ´´½¨Pull Request 
