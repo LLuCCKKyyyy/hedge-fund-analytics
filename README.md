@@ -101,3 +101,13 @@ uvicorn app.main:app --reload
 cd ../frontend
 npm start
 \`\`\`
+
+## 📄 项目交接
+
+详细的项目交接文档请查看 [HANDOVER.md](HANDOVER.md)。该文档包含：
+- 项目概述
+- 技术栈
+- 开发阶段
+- 关键功能
+- 本地开发指南
+- 待办事项
