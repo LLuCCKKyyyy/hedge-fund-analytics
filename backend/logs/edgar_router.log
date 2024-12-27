@@ -1,0 +1,14 @@
+2024-11-29 15:02:29,292 - app.routers.edgar - INFO - Processing filings request for CIK 1350694, year 2023
+2024-11-29 15:02:29,295 - app.routers.edgar - DEBUG - Request headers: Headers({'host': 'localhost:8001', 'user-agent': 'curl/8.4.0', 'accept': '*/*'})
+2024-11-29 15:02:57,400 - app.routers.edgar - INFO - Processing filings request for CIK 0001350694, year 2023
+2024-11-29 15:02:57,400 - app.routers.edgar - DEBUG - Request headers: Headers({'host': 'localhost:8001', 'user-agent': 'curl/8.4.0', 'accept': '*/*'})
+2024-11-29 15:02:58,659 - app.routers.edgar - INFO - Successfully retrieved 4 filings
+2024-11-29 15:03:14,952 - app.routers.edgar - INFO - Processing holdings request for CIK 0001350694, year 2023
+2024-11-29 15:03:14,953 - app.routers.edgar - DEBUG - Request headers: Headers({'host': 'localhost:8001', 'user-agent': 'curl/8.4.0', 'accept': '*/*'})
+2024-11-29 15:03:20,205 - app.routers.edgar - INFO - Successfully processed 740 holdings
+2024-11-29 15:07:21,228 - app.routers.edgar - INFO - Processing filings request for CIK 0001350694, year 2023
+2024-11-29 15:07:21,228 - app.routers.edgar - DEBUG - Request headers: Headers({'host': 'localhost:8001', 'user-agent': 'curl/8.4.0', 'accept': '*/*'})
+2024-11-29 15:07:23,123 - app.routers.edgar - INFO - Successfully retrieved 4 filings
+2024-11-29 15:07:41,603 - app.routers.edgar - INFO - Processing holdings request for CIK 0001350694, year 2023
+2024-11-29 15:07:41,603 - app.routers.edgar - DEBUG - Request headers: Headers({'host': 'localhost:8001', 'user-agent': 'curl/8.4.0', 'accept': '*/*'})
+2024-11-29 15:07:46,032 - app.routers.edgar - INFO - Successfully processed 740 holdings

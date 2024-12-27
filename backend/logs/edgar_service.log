@@ -1,0 +1,17 @@
+2024-11-29 15:03:20,045 - app.services.edgar_service - INFO - Portfolio Statistics:
+2024-11-29 15:03:20,045 - app.services.edgar_service - INFO - Total Holdings: 740
+2024-11-29 15:03:20,046 - app.services.edgar_service - INFO - Total Value: $16,545,394,436.00
+2024-11-29 15:03:20,192 - app.services.edgar_service - INFO - Largest Position: ISHARES INC ($912,991,069.00)
+2024-11-29 15:07:46,024 - app.services.edgar_service - INFO - Portfolio Statistics:
+2024-11-29 15:07:46,024 - app.services.edgar_service - INFO - Total Holdings: 740
+2024-11-29 15:07:46,025 - app.services.edgar_service - INFO - Total Value: $16,545,394,436.00
+2024-11-29 15:07:46,025 - app.services.edgar_service - INFO - Largest Position: ISHARES INC ($912,991,069.00)
+2024-11-29 16:07:23,577 - app.services.edgar_service - INFO - 获取 0001234567 在 2023 年的13F文件
+2024-11-29 16:07:23,578 - app.services.edgar_service - INFO - 请求提交历史: https://data.sec.gov/submissions/CIK0001234567.json
+2024-11-29 16:07:23,679 - app.services.edgar_service - ERROR - 请求失败 (<Mock name='mock.status_code' id='2617754467024'>): https://data.sec.gov/submissions/CIK0001234567.json
+2024-11-29 16:07:23,781 - app.services.edgar_service - ERROR - 请求失败 (<Mock name='mock.status_code' id='2617735649232'>): https://data.sec.gov/submissions/CIK0001234567.json
+2024-11-29 16:07:23,882 - app.services.edgar_service - ERROR - 获取13F文件列表时出错: 
+2024-11-29 16:07:24,703 - app.services.edgar_service - ERROR - 请求失败 (<Mock name='get().status_code' id='2617753311632'>): http://test.url
+2024-11-29 16:07:24,804 - app.services.edgar_service - ERROR - 请求失败 (<Mock name='get().status_code' id='2617753311632'>): http://test.url
+2024-11-29 16:07:24,905 - app.services.edgar_service - ERROR - 请求失败 (<Mock name='get().status_code' id='2617753311632'>): http://test.url
+2024-11-29 16:07:24,905 - app.services.edgar_service - ERROR - 解析XML文件失败: 
